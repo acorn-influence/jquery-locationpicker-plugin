@@ -39,7 +39,7 @@
                 gmapContext.circle.setMap(null);
             }
             if (radius > 0) {
-                radius *= 1;
+                radius *= 1609.344;
                 options = $.extend({
                     strokeColor: "#0000FF",
                     strokeOpacity: .35,
